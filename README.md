@@ -13,7 +13,7 @@
 | **Fitxers d'entrega** | Makefile, \*.h, \*/\*.h, \*.c, \*/\*.c |
 | **Makefile** | NAME, all, clean, fclean, re |
 | **Funcions externes** | malloc, free, write, va_start, va_arg, va_copy, va_end |
-| **Libft permés** | Yes |
+| **Libft permés** | Si |
 | **Descripció** | Escriu una llibrería que contingui `ft_printf()`, una funció que imitarà el `printf()` original |
 
 Heu de recodificar la funció `printf()` de libc.  
@@ -50,7 +50,7 @@ Heu d'implementar les següents conversions:
 | **Turn in files** | Makefile, \*.h, \*/\*.h, \*.c, \*/\*.c |
 | **Makefile** | NAME, all, clean, fclean, re |
 | **External functs.** | malloc, free, write, va_start, va_arg, va_copy, va_end |
-| **Libft authorized** | Si |
+| **Libft authorized** | Yes |
 | **Description** | Write a library that contains `ft_printf()`, a function that will mimic the original `printf()` |
 
 You have to recode the printf() function from libc.  
