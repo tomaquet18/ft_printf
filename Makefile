@@ -40,18 +40,18 @@ AR =			ar rcs
 all:
 				@$(MAKE) $(NAME)
 
-$(NAME):	$(OBJS)
-			$(AR) $(NAME) $(OBJS)
+$(NAME):		$(OBJS)
+				$(AR) $(NAME) $(OBJS)
 
 clean:
-			rm -f $(OBJS) $(OBJS_BONUS)
+				rm -f $(OBJS) $(OBJS_BONUS)
 
 fclean:
-			@$(MAKE) clean
-			rm -f $(NAME) $(NAME_BONUS)
+				@$(MAKE) clean
+				rm -f $(NAME) $(NAME_BONUS)
 
 re:
-			@$(MAKE) fclean
-			@$(MAKE) all
+				@$(MAKE) fclean
+				@$(MAKE) all
 
 .PHONY: all clean fclean re
