@@ -15,14 +15,14 @@ NAME =			libftprintf.a
 DIR_SRCS =		src/
 
 
-PRINTF_HEADER = include/ft_printf.h
+PRINTF_HEADER = 	include/ft_printf.h
 
-PRINTF_FILES =	ft_printf.c		\
-				ft_printf_char.c\
-				ft_printf_num.c	\
-				ft_printf_str.c	\
-				ft_printf_ptr.c \
-				ft_putchar_fd.c
+PRINTF_FILES =		ft_printf.c		\
+			ft_printf_char.c\
+			ft_printf_num.c	\
+			ft_printf_str.c	\
+			ft_printf_ptr.c \
+			ft_putchar_fd.c
 
 SRCS =			$(addprefix $(DIR_SRCS), $(PRINTF_FILES))
 
@@ -35,23 +35,23 @@ INCLUDES =		-I include/
 AR =			ar rcs
 
 %.o:			%.c $(PRINTF_HEADER)
-				$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
+			$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
 
 all:
-				@$(MAKE) $(NAME)
+			@$(MAKE) $(NAME)
 
 $(NAME):		$(OBJS)
-				$(AR) $(NAME) $(OBJS)
+			$(AR) $(NAME) $(OBJS)
 
 clean:
-				rm -f $(OBJS) $(OBJS_BONUS)
+			rm -f $(OBJS) $(OBJS_BONUS)
 
 fclean:
-				@$(MAKE) clean
-				rm -f $(NAME) $(NAME_BONUS)
+			@$(MAKE) clean
+			rm -f $(NAME) $(NAME_BONUS)
 
 re:
-				@$(MAKE) fclean
-				@$(MAKE) all
+			@$(MAKE) fclean
+			@$(MAKE) all
 
 .PHONY: all clean fclean re
