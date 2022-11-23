@@ -40,7 +40,7 @@ Heu d'implementar les següents conversions:
 ### Nota:
 ![nota](https://raw.githubusercontent.com/nach131/42Barcelona/main/images/100.png "nota")
 
-
+&zwj;
 
 ## <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fbb%2F92%2Fa9%2Fbb92a9985e8defd0bbc75820ab7829c0.jpg" height="20px" width="30px"> English:
 ### Goal:
