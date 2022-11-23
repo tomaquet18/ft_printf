@@ -1,13 +1,13 @@
 # ft_printf
 
-## 🏴Idiomes/languages:
-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/255px-Flag_of_Catalonia.svg.png" height="20px" width="30px" > [Català](#català)
-- <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fbb%2F92%2Fa9%2Fbb92a9985e8defd0bbc75820ab7829c0.jpg" height="20px" width="30px"> [English](#english)
+## 🏴 Idiomes/languages:
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/255px-Flag_of_Catalonia.svg.png" height="20px" width="30px" > [Català](#-català)
+- <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fbb%2F92%2Fa9%2Fbb92a9985e8defd0bbc75820ab7829c0.jpg" height="20px" width="30px"> [English](#-english)
 
 &zwj;
 
 ## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/255px-Flag_of_Catalonia.svg.png" height="20px" width="30px" > Català:
-### Objectiu:
+### 🚀 Objectiu:
 | Nom del programa | libftprintf.a |
 | :------------ | :------------ |
 | **Fitxers d'entrega** | Makefile, \*.h, \*/\*.h, \*.c, \*/\*.c |
@@ -16,8 +16,9 @@
 | **Libft permés** | Si |
 | **Descripció** | Escriu una llibrería que contingui `ft_printf()`, una funció que imitarà el `printf()` original |
 
-Heu de recodificar la funció `printf()` de libc.
-El prototip de `ft_printf()` és: `int ft_printf(const char *, ...);`
+Heu de recodificar la funció `printf()` de libc.  
+El prototip de `ft_printf()` és: `int ft_printf(const char *, ...);`  
+  
 Aquests són els requisits:
 - No implementeu la gestió de buffer del `printf()` original.
 - La vostra funció ha de gestionar les conversions següents: cspdiuxX%.
@@ -37,13 +38,13 @@ Heu d'implementar les següents conversions:
 - `%X` Imprimeix un nombre en format hexadecimal (base 16) en majúscules.
 - `%%` Imprimeix un signe de percentatge.
 
-### Nota:
+### 💯 Nota:
 ![nota](https://raw.githubusercontent.com/nach131/42Barcelona/main/images/100.png "nota")
 
 &zwj;
 
 ## <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fbb%2F92%2Fa9%2Fbb92a9985e8defd0bbc75820ab7829c0.jpg" height="20px" width="30px"> English:
-### Goal:
+### 🚀 Goal:
 | Program name | libftprintf.a |
 | :------------ | :------------ |
 | **Turn in files** | Makefile, \*.h, \*/\*.h, \*.c, \*/\*.c |
@@ -52,8 +53,9 @@ Heu d'implementar les següents conversions:
 | **Libft authorized** | Si |
 | **Description** | Write a library that contains `ft_printf()`, a function that will mimic the original `printf()` |
 
-You have to recode the printf() function from libc.
-EThe prototype of `ft_printf()` is: `int ft_printf(const char *, ...);`
+You have to recode the printf() function from libc.  
+The prototype of `ft_printf()` is: `int ft_printf(const char *, ...);`  
+  
 Here are the requirements:
 - Don't implement the buffer management of the original `printf()`.
 - Your function has to handle the following conversions: cspdiuxX%.
@@ -61,7 +63,7 @@ Here are the requirements:
 - You must use the command ar to create your library.
 - Using the libtool command is forbidden.
 - Your libftprintf.a has to be created at the root of your repository.
-
+  
 You have to implement the following conversions:
 - `%c` Prints a single character.
 - `%s` Prints a string (as defined by the common C convention).
@@ -73,5 +75,5 @@ You have to implement the following conversions:
 - `%X` Prints a number in hexadecimal (base 16) uppercase format.
 - `%%` Prints a percent sign.
 
-### Note:
+### 💯 Note:
 ![note](https://raw.githubusercontent.com/nach131/42Barcelona/main/images/100.png "nota")
