@@ -17,11 +17,11 @@ DIR_SRCS =		src/
 
 PRINTF_HEADER = 	include/ft_printf.h
 
-PRINTF_FILES =		ft_printf.c		\
+PRINTF_FILES =		ft_printf.c	\
 			ft_printf_char.c\
 			ft_printf_num.c	\
 			ft_printf_str.c	\
-			ft_printf_ptr.c \
+			ft_printf_ptr.c	\
 			ft_putchar_fd.c
 
 SRCS =			$(addprefix $(DIR_SRCS), $(PRINTF_FILES))
