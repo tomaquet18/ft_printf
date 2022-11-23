@@ -13,7 +13,7 @@
 | **Fitxers d'entrega** | Makefile, \*.h, \*/\*.h, \*.c, \*/\*.c |
 | **Makefile** | NAME, all, clean, fclean, re |
 | **Funcions externes** | malloc, free, write, va_start, va_arg, va_copy, va_end |
-| **Libft permés** | Si |
+| **Libft permés** | Yes |
 | **Descripció** | Escriu una llibrería que contingui `ft_printf()`, una funció que imitarà el `printf()` original |
 
 Heu de recodificar la funció `printf()` de libc.  
@@ -76,4 +76,4 @@ You have to implement the following conversions:
 - `%%` Prints a percent sign.
 
 ### 💯 Note:
-![note](https://raw.githubusercontent.com/nach131/42Barcelona/main/images/100.png "nota")
+![note](https://raw.githubusercontent.com/nach131/42Barcelona/main/images/100.png "note")
