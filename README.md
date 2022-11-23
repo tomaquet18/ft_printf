@@ -4,7 +4,9 @@
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/255px-Flag_of_Catalonia.svg.png" height="20px" width="30px" > [Català](#català)
 - <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fbb%2F92%2Fa9%2Fbb92a9985e8defd0bbc75820ab7829c0.jpg" height="20px" width="30px"> [English](#english)
 
-## Català:
+&zwj;
+
+## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/255px-Flag_of_Catalonia.svg.png" height="20px" width="30px" > Català:
 ### Objectiu:
 | Nom del programa | libftprintf.a |
 | :------------ | :------------ |
@@ -24,12 +26,23 @@ Aquests són els requisits:
 - L'ús de l'ordre libtool està prohibit.
 - El vostre libftprintf.a s'ha de crear a l'arrel del vostre repositori.
 
+Heu d'implementar les següents conversions:
+- `%c` Imprimeix un caràcter.
+- `%s` Imprimeix una cadena de caràcters (tal com es defineix per la convenció C comuna).
+- `%p` L'argument del punter `void *` s'ha d'imprimir en format hexadecimal.
+- `%d` Imprimeix un nombre decimal (base 10).
+- `%i` Imprimeix un nombre enter en base 10.
+- `%u` Imprimeix un nombre decimal sense signe (base 10).
+- `%x` Imprimeix un nombre en format hexadecimal (base 16) en minúscules.
+- `%X` Imprimeix un nombre en format hexadecimal (base 16) en majúscules.
+- `%%` Imprimeix un signe de percentatge.
+
 ### Nota:
 ![nota](https://raw.githubusercontent.com/nach131/42Barcelona/main/images/100.png "nota")
 
-[========]
 
-## English:
+
+## <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fbb%2F92%2Fa9%2Fbb92a9985e8defd0bbc75820ab7829c0.jpg" height="20px" width="30px"> English:
 ### Goal:
 | Program name | libftprintf.a |
 | :------------ | :------------ |
@@ -48,6 +61,17 @@ Here are the requirements:
 - You must use the command ar to create your library.
 - Using the libtool command is forbidden.
 - Your libftprintf.a has to be created at the root of your repository.
+
+You have to implement the following conversions:
+- `%c` Prints a single character.
+- `%s` Prints a string (as defined by the common C convention).
+- `%p` The `void *` pointer argument has to be printed in hexadecimal format.
+- `%d` Prints a decimal (base 10) number.
+- `%i` Prints an integer in base 10.
+- `%u` Prints an unsigned decimal (base 10) number.
+- `%x` Prints a number in hexadecimal (base 16) lowercase format.
+- `%X` Prints a number in hexadecimal (base 16) uppercase format.
+- `%%` Prints a percent sign.
 
 ### Note:
 ![note](https://raw.githubusercontent.com/nach131/42Barcelona/main/images/100.png "nota")
